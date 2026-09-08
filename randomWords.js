@@ -1,4 +1,4 @@
-const words=["apple","banana","cherry","date","fig","grape","kiwi"];
+const words=["apple","banana","cherry","date","fig","grape","kiwi","orange"];
 
 function generateRandomWord() {
   const randomIndex = Math.floor(Math.random()*words.length);
