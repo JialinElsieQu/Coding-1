@@ -13,12 +13,12 @@ h1{
 }
 
 a:link{
-  background-color:aliceblue;
+  background-color:black;
   text-decoration:none;
 }
 
 a:visited{
-  background-color:aliceblue;
+  background-color:gainsboro;
   text-decoration:none;
 }
 
