@@ -1,5 +1,5 @@
 body{
-  background-color: AliceBlue;
+  background-color: lightcyan;
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 60px;
@@ -10,4 +10,53 @@ h1{
   color: Black;
   margin-bottom:20px;
   text-shadow:2px 2px Red;
+}
+
+a:link{
+  background-color:wheat;
+  text-decoration:none;
+}
+
+a:visited{
+  background-color:lemonchiffon;
+  text-decoration:none;
+}
+
+a:hover{
+  background-color: cornsilk;
+  text-decoration:underline;
+}
+
+a:active{
+  background-color:blanchedalmond;
+}
+
+img{
+  border-radius:8px;
+  padding:20px
+  transform 0.3s ease;
+}
+
+img:hover{
+  transform:scale(1.05);
+}
+
+
+a{
+  display:inline-block;
+  padding:10px 18px;
+  background:lightsteelblue;
+  color:palegoldenrod;
+  tet-decoration:none;
+  border-radius:8px;
+  box-shadow:0 3px 0 thistle;
+  transition:all 0.1s ease;
+}
+a:hover{
+  background:powderblue;
+}
+
+a:active{
+  transform:translateY(3px);
+  box-shadow:0 0 0thistle;
 }
