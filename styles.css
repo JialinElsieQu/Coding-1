@@ -9,7 +9,7 @@ h1{
   font-size:80px;
   color: Black;
   margin-bottom:20px;
-  text-shadow:2px 2px peachpuff;
+  text-shadow:2px 2px black;
 }
 
 a:link{
@@ -45,12 +45,12 @@ a{
   color:palegoldenrod;
   tet-decoration:none;
   border-radius:8px;
-  box-shadow:0 3px 0 thistle;
+  box-shadow:0 3px 0 aliceblue;
   transition:all 0.1s ease;
 }
 
 a:active{
   background-color:aliceblue;
   transform:translateY(3px);
-  box-shadow:0 0 0thistle;
+  box-shadow:0 0 0 aliceblue;
 }
