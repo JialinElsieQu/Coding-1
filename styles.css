@@ -13,17 +13,17 @@ h1{
 }
 
 a:link{
-  background-color:wheat;
+  background-color:moccasin;
   text-decoration:none;
 }
 
 a:visited{
-  background-color:lemonchiffon;
+  background-color:mistyrose;
   text-decoration:none;
 }
 
 a:hover{
-  background-color: cornsilk;
+  background-color: aliceblue;
   text-decoration:underline;
 }
 
