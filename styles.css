@@ -27,10 +27,6 @@ a:hover{
   text-decoration:underline;
 }
 
-a:active{
-  background-color:blanchedalmond;
-}
-
 img{
   border-radius:8px;
   padding:20px
@@ -52,11 +48,9 @@ a{
   box-shadow:0 3px 0 thistle;
   transition:all 0.1s ease;
 }
-a:hover{
-  background:powderblue;
-}
 
 a:active{
+  background-color:blanchedalmond;
   transform:translateY(3px);
   box-shadow:0 0 0thistle;
 }
