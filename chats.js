@@ -11,7 +11,7 @@ function handleUserInput(event) {
     const userInput=document.getElementById("userInput").value;
     const chat=document.getElementById("chat");
 
-    document.getElemenyById("userInput").value="";
+    document.getElementyById("userInput").value="";
     chat.innerHTML += `<p><strong>You:</strong> ${userInput} </p>`;
     const response = chatbotResponses[userInput.toLowerCase()] || chatbotResponses["default"];
     chat.innerHTML += `<p><strong>服务器:</strong> ${response}</p>`;
