@@ -8,8 +8,8 @@ const chatbotResponses= {
 
 function handleUserInput(event) {
   if(event.key=="Enter"){
-    const userInput=document.getElementById("userInput").value;
-    const chat=document.getElementById("chat");
+    const userInput=document.getElementyById("userInput").value;
+    const chat=document.getElementyById("chat");
 
     document.getElementyById("userInput").value="";
     chat.innerHTML += `<p><strong>You:</strong> ${userInput} </p>`;
