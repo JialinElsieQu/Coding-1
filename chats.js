@@ -2,6 +2,7 @@ const chatbotResponses= {
 "hello":"你好啊亲括号瘆人的微笑括号",
 "how are you":"嗯嗯比你好",
 "bye":"诶呀呀你终于走了我解脱了括号微笑微笑括号",
+"are you okay?":"滚吧。我好得很",
 "default":"你是不是有病说一些我听不懂的话"
   
 };
