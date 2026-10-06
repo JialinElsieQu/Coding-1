@@ -8,10 +8,10 @@ const chatbotResponses= {
 
 function handleUserInput(event) {
   if(event.key=="Enter"){
-    const userInput=document.getElementyById("userInput").value;
-    const chat=document.getElementyById("chat");
+    const userInput=document.getElementById("userInput").value;
+    const chat=document.getElementById("chat");
 
-    document.getElementyById("userInput").value="";
+    document.getElementById("userInput").value="";
     chat.innerHTML += `<p><strong>You:</strong> ${userInput} </p>`;
     const response = chatbotResponses[userInput.toLowerCase()] || chatbotResponses["default"];
     chat.innerHTML += `<p><strong>服务器:</strong> ${response}</p>`;
